@@ -1,0 +1,31 @@
+
+/* Responsive fixes */
+
+
+@media (max-width: 768px) {
+
+header .navbar-default .navbar-nav .open .dropdown-menu > li a {
+
+color: #dd2020;
+
+}
+
+#products_grid .oe_product {
+
+width: 50%;
+
+}
+
+}
+
+
+
+@media (max-width: 399px) {
+
+#products_grid .oe_product {
+
+width: 100%;
+
+}
+
+}

@@ -18,6 +18,14 @@ header .navbar-default .navbar-nav > .open > a:focus {
 	color: #212121;
 }
 
+}
+header .navbar-default .navbar-nav > .active > a,
+header .navbar-default .navbar-nav > .active > a:hover,
+header .navbar-default .navbar-nav > .active > a:focus {
+	background-color: #BBDEFB;
+	color: #212121;
+}
+
 /* Dropdown submenu */
 header .navbar-default .dropdown-menu {
 	background-color: #BBDEFB;

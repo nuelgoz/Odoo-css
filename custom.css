@@ -15,8 +15,8 @@ header .navbar-default {
 header .navbar-default .navbar-nav > .open > a,
 header .navbar-default .navbar-nav > .open > a:hover,
 header .navbar-default .navbar-nav > .open > a:focus {
-	background-color: #000;
-	color: #FFF;
+	background-color: ##BBDEFB;
+	color: #212121;
 }
 
 /* Dropdown submenu */

@@ -1,4 +1,14 @@
-.navbar-default {
-  background-color: #1976D2;
-  border-color: #2196F3;
+/* Custom CSS for Xeitos.com project */
+/* General */
+
+/* Header */
+/* Main menu */
+
+header.navbar-inverse {
+  background-color: #FFF;
+  margin: 0px;
+  border: none;
+  position: relative;
 }
+
+/* Content */

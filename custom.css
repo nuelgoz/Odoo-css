@@ -25,7 +25,7 @@ header .navbar-default .dropdown-menu {
 
 header .navbar-default .dropdown-menu > li a {
         padding: .75em 1.5em;
-	color: #212121;
+	color: #BBDEFB;
 }
 
 header .navbar-default .dropdown-menu > li a:hover,
@@ -37,8 +37,8 @@ header .navbar-default .dropdown-menu > li.active a {
 
 /* Footer */
 #wrapwrap footer {
-        background-color: #BBDEFB;
-	color: #BBDEFB; 
+        background-color: ##212121;
+	color: ##B6B6B6; 
 }
 
 /* Footer menu */
@@ -65,5 +65,5 @@ footer ul li a:hover {
 /* Responsive fixes */
 @media (max-width: 768px) {
 	header .navbar-default .navbar-nav .open .dropdown-menu > li a {
-	        color: #BBDEFB;
+	        color: ##212121;
 	}

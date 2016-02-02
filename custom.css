@@ -1,12 +1,194 @@
-/* Custom CSS for Xeitos.com project */
+/* Custom CSS for GÃ¼endolina project */
 /* General */
+h1, h2, h3, h4, h5, h6 {
+	text-transform: none;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+.center {
+	text-align: center;
+}
+
+.text-danger {
+	color: red;
+}
 
 /* Header */
 /* Main menu */
-
 header .navbar-default {
         border-bottom: 2px solid #AAA;
 	background-color: transparent;
 }
 
+.navbar-default .navbar-nav > li > a {
+	color: #777;
+}
+
+header .navbar-default .navbar-nav > .open > a,
+header .navbar-default .navbar-nav > .open > a:hover,
+header .navbar-default .navbar-nav > .open > a:focus {
+	background-color: #000;
+	color: #FFF;
+}
+
+/* Dropdown submenu */
+header .navbar-default .dropdown-menu {
+	background-color: #9C9E9F;
+}
+
+header .navbar-default .dropdown-menu > li a {
+        padding: .75em 1.5em;
+	color: #FFF;
+}
+
+header .navbar-default .dropdown-menu > li a:hover,
+header .navbar-default .dropdown-menu > li a:focus,
+header .navbar-default .dropdown-menu > li.active a {
+        background-color: #000;
+	color: #FFF;
+}
+
 /* Content */
+main section.oe_dark {
+        background-color: transparent;
+}
+
+/* Categories */
+.oe_product {
+	border: 1px dotted #DDD;
+}
+
+#products_grid h2 {
+	font-size: 110%;
+	text-align: center;
+	font-weight: normal;
+}
+
+#products_grid h2 a {
+	color: #333;
+}
+
+.oe_product .product_price {
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+/* Product images */
+.slick-slide img {
+	max-height: 500px;
+	margin: auto;
+	padding: 0 .5em;
+}
+
+.slick-track {
+	margin: auto;
+}
+
+/* Add to cart modal fix */
+#product_confirmation img {
+	max-width: 300px;
+}
+
+.text-muted {
+	text-transform: none;
+}
+
+/* Sidebar menu */
+#products_grid_before ul.nav {
+	background-color: #EEE;
+	margin: 0 !important;
+}
+
+#products_grid_before ul.nav li a { 
+        color: #000;
+	padding: .7em 1.5em;
+}
+
+#products_grid_before ul.nav li a:hover,
+#products_grid_before ul.nav li a:focus,
+#products_grid_before ul.nav li.active a { 
+        color: #FFF;
+        background-color: #999;
+	border-radius: 0;
+}
+
+/* Checkout */
+.has-error .form-control {
+	border-color: red;
+}
+
+.has-error .checkbox,
+.has-error .checkbox-inline,
+.has-error .control-label,
+.has-error .help-block,
+.has-error .radio,
+.has-error .radio-inline {
+	color: red;
+}
+
+/* Footer */
+#wrapwrap footer {
+        background-color: #FFF;
+	color: #777; 
+}
+
+#wrapwrap footer .row {
+	border: none;
+}
+
+footer #footer {
+        border-top: 2px solid #AAA;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer .fa.fa-5x {
+	font-size: 5em;
+}
+
+/* Footer menu */
+footer ul {
+	padding: 0;
+}
+
+footer ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+footer ul li a {
+	color: #999;
+	font-size: 90%;
+	padding: 0 1em;
+}
+
+footer ul li a:hover {
+        color: #333;
+	text-decoration: none;
+}
+
+/* Responsive fixes */
+@media (max-width: 768px) {
+	header .navbar-default .navbar-nav .open .dropdown-menu > li a {
+	        color: #777;
+	}
+	#products_grid .oe_product {
+		width: 50%;
+	}
+}
+
+@media (max-width: 399px) {
+	#products_grid .oe_product {
+                width: 100%;
+        }
+}

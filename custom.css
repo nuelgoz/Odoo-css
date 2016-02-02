@@ -14,14 +14,14 @@ header .navbar-default {
 header .navbar-default .navbar-nav > .open > a,
 header .navbar-default .navbar-nav > .open > a:hover,
 header .navbar-default .navbar-nav > .open > a:focus {
-	background-color: #BBDEFB;
+	background-color: #B2EBF2;
 	color: #212121;
 }
 
 header .navbar-default .navbar-nav > .active > a,
 header .navbar-default .navbar-nav > .active > a:hover,
 header .navbar-default .navbar-nav > .active > a:focus {
-	background-color: #BBDEFB;
+	background-color: #B2EBF2;
 	color: #212121;
 }
 
@@ -38,12 +38,8 @@ header .navbar-default .dropdown-menu > li a {
 header .navbar-default .dropdown-menu > li a:hover,
 header .navbar-default .dropdown-menu > li a:focus,
 header .navbar-default .dropdown-menu > li.active a {
-        background-color: ##BBDEFB;
+        background-color: #B2EBF2;
 	color: #212121;
 }
 
 /* Footer */
-#wrapwrap footer {
-        background-color: ##212121;
-	color: ##B6B6B6; 
-}

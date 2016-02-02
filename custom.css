@@ -1,2 +1,4 @@
-.navbar-default .navbar-nav > li > a {
-	color: ##1976D2;
+.navbar-default {
+  background-color: #1976D2;
+  border-color: #2196F3;
+}

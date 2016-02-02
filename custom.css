@@ -8,7 +8,7 @@ header .navbar-default {
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #BBDEFB;
+	color: #212121;
 }
 
 header .navbar-default .navbar-nav > .open > a,
@@ -25,14 +25,14 @@ header .navbar-default .dropdown-menu {
 
 header .navbar-default .dropdown-menu > li a {
         padding: .75em 1.5em;
-	color: #BBDEFB;
+	color: #212121;
 }
 
 header .navbar-default .dropdown-menu > li a:hover,
 header .navbar-default .dropdown-menu > li a:focus,
 header .navbar-default .dropdown-menu > li.active a {
-        background-color: #000;
-	color: #BBDEFB;
+        background-color: #BBDEFB;
+	color: #212121;
 }
 
 /* Footer */

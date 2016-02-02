@@ -48,30 +48,3 @@ header .navbar-default .dropdown-menu > li.active a {
         background-color: ##212121;
 	color: ##B6B6B6; 
 }
-
-/* Footer menu */
-footer ul {
-	padding: 0;
-}
-
-footer ul li {
-	list-style: none;
-	display: inline-block;
-}
-
-footer ul li a {
-	color: #999;
-	font-size: 90%;
-	padding: 0 1em;
-}
-
-footer ul li a:hover {
-        color: #333;
-	text-decoration: none;
-}
-
-/* Responsive fixes */
-@media (max-width: 768px) {
-	header .navbar-default .navbar-nav .open .dropdown-menu > li a {
-	        color: ##212121;
-	}

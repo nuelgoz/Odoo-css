@@ -21,7 +21,7 @@ header .navbar-default .navbar-nav > .open > a:focus {
 header .navbar-default .navbar-nav > .active > a,
 header .navbar-default .navbar-nav > .active > a:hover,
 header .navbar-default .navbar-nav > .active > a:focus {
-	background-color: #FFFFFF;
+	background-color: #2196F3;
 	color: #212121;
 }
 

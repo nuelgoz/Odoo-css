@@ -14,14 +14,14 @@ header .navbar-default {
 header .navbar-default .navbar-nav > .open > a,
 header .navbar-default .navbar-nav > .open > a:hover,
 header .navbar-default .navbar-nav > .open > a:focus {
-	background-color: #FF9800;
+	background-color: #B2EBF2;
 	color: #212121;
 }
 
 header .navbar-default .navbar-nav > .active > a,
 header .navbar-default .navbar-nav > .active > a:hover,
 header .navbar-default .navbar-nav > .active > a:focus {
-	background-color: #B2EBF2;
+	background-color: #FF9800;
 	color: #212121;
 }
 

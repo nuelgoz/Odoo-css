@@ -1,0 +1,29 @@
+/* Custom CSS for Bazarru.com project */
+/* General */
+
+/* Header */   
+
+/* Main menu */
+header .navbar-default {
+        background-color: transparent;
+}
+
+.navbar-static-top {
+z-index: 1000;
+border-width: 0 0 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #616161;
+}
+
+header a.navbar-brand img {
+max-height: 60px;
+}
+
+.navbar {
+position: relative;
+min-height: 65px;
+}
+
+/* Footer */

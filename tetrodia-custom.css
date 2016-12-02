@@ -8,26 +8,30 @@
 
 /* Main menu */
 
-header .navbar-default {
-        background-color: transparent;
-}
-
-.navbar-static-top {
-z-index: 1000;
-border-width: 0 0 0px;
+header .navbar {
+position: relative;
+min-height: 65px;
 }
 
 header a.navbar-brand img {
 max-height: 60px;
 }
 
+.navbar-default {
+        background-color: transparent;
+}
+
 .navbar-default .navbar-nav>li>a {
 color: #616161;
 }
 
-.navbar {
-position: relative;
-min-height: 65px;
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: #dd4814;
+}
+.navbar-static-top {
+z-index: 1000;
+border-width: 0 0 0px;
 }
 
 /* Vertical menu */

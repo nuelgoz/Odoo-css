@@ -8,12 +8,14 @@
 
 /* Main menu */
 
-header .navbar {
+
+.navbar-default .navbar {
 position: relative;
 min-height: 65px;
 }
 
-header a.navbar-brand img {
+
+.navbar-default .navbar-brand img {
 max-height: 60px;
 }
 
@@ -35,7 +37,7 @@ color: #616161;
     background-color: #eb6c44;
 }
 
-.navbar-static-top {
+.navbar-default .navbar-static-top {
 z-index: 1000;
 border-width: 0 0 0px;
 }

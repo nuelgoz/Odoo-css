@@ -1,8 +1,69 @@
 /* Custom CSS for Tetrodia.com project */
 /* General */
 
-/* Header */  
+/* Header */
 
+/* Main menu test*/
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #dd4814;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: #dd4814;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #616161;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #eeeeee;
+}
+.dropdown-toggle:focus {
+    outline: 0;
+}
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+a:hover, a:focus {
+    color: #97310e;
+    text-decoration: underline;
+}
+a:active, a:hover {
+    outline: 0;
+}
+a {
+    color: #dd4814;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 /* Main menu */
 
@@ -14,10 +75,6 @@ header .navbar-default {
 .navbar-static-top {
 z-index: 1000;
 border-width: 0 0 0px;
-}
-
-.navbar-default .navbar-nav>li>a {
-color: #616161;
 }
 
 header a.navbar-brand img {

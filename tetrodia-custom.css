@@ -3,23 +3,31 @@
 
 /* Header */
 
-/* Main menu test*/
-
-
 /* Main menu */
 
 header .navbar-default {
         background-color: transparent;
 }
 
+.navbar-static-top {
+z-index: 1000;
+border-width: 0 0 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+color: #616161;
+}
+
 header a.navbar-brand img {
 max-height: 60px;
 }
 
-.navbar-default .navbar {
+.navbar {
 position: relative;
 min-height: 65px;
 }
+
+/* Main menu test*/
 
 .navbar-default .navbar-nav>li>a {
 color: #616161;
@@ -33,11 +41,6 @@ color: #616161;
 .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #ffffff;
     background-color: #eb6c44;
-}
-
-.navbar-default .navbar-static-top {
-z-index: 1000;
-border-width: 0 0 0px;
 }
 
 /* Vertical menu */
